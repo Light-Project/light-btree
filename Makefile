@@ -2,7 +2,7 @@
 flags = -g -O2 -Wall -Werror -I src/ -I list/src/
 head  = src/btree.h list/src/list.h
 obj   = src/btree.o src/helper.o
-demo  = examples/selftest
+demo  = examples/selftest examples/benchmark
 
 all: $(demo)
 
